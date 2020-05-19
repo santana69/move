@@ -100,8 +100,3 @@ class ViewController: UITableViewController {
 		tableView.deselectRow(at: indexPath, animated: true)
 	}
 }
-
-//Book by Yoyon Pujiyono from the Noun Project
-//Car by alerma from the Noun Project
-//Phone by zidney from the Noun Project
-//question mark by Pencil from the Noun Project
