@@ -16,10 +16,10 @@ Each object has two additional properties, such that we have different informati
 #### Attributions
 ##### Icons
 
-Book by Yoyon Pujiyono from the Noun Project
-Car by alerma from the Noun Project
-Phone by zidney from the Noun Project
-question mark by Pencil from the Noun Project
+- Book by Yoyon Pujiyono from the Noun Project
+- Car by alerma from the Noun Project
+- Phone by zidney from the Noun Project
+- question mark by Pencil from the Noun Project
 
 
 
