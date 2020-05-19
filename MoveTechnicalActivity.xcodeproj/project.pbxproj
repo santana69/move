@@ -13,6 +13,12 @@
 		B5404C6F247372C200BD22DC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5404C6D247372C200BD22DC /* Main.storyboard */; };
 		B5404C71247372C800BD22DC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B5404C70247372C800BD22DC /* Assets.xcassets */; };
 		B5404C74247372C800BD22DC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = B5404C72247372C800BD22DC /* LaunchScreen.storyboard */; };
+		B5404C7D2473730300BD22DC /* Book.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5404C7C2473730300BD22DC /* Book.swift */; };
+		B5404C7F2473730C00BD22DC /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5404C7E2473730C00BD22DC /* Car.swift */; };
+		B5404C812473731A00BD22DC /* Phone.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5404C802473731A00BD22DC /* Phone.swift */; };
+		B5404C852473765500BD22DC /* Thing.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5404C842473765500BD22DC /* Thing.swift */; };
+		B5404C8B247379AD00BD22DC /* ThingCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = B5404C89247379AD00BD22DC /* ThingCell.swift */; };
+		B5404C8C247379AD00BD22DC /* ThingCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = B5404C8A247379AD00BD22DC /* ThingCell.xib */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +30,12 @@
 		B5404C70247372C800BD22DC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		B5404C73247372C800BD22DC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		B5404C75247372C800BD22DC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B5404C7C2473730300BD22DC /* Book.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Book.swift; sourceTree = "<group>"; };
+		B5404C7E2473730C00BD22DC /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		B5404C802473731A00BD22DC /* Phone.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Phone.swift; sourceTree = "<group>"; };
+		B5404C842473765500BD22DC /* Thing.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Thing.swift; sourceTree = "<group>"; };
+		B5404C89247379AD00BD22DC /* ThingCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ThingCell.swift; sourceTree = "<group>"; };
+		B5404C8A247379AD00BD22DC /* ThingCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = ThingCell.xib; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +68,8 @@
 		B5404C66247372C200BD22DC /* MoveTechnicalActivity */ = {
 			isa = PBXGroup;
 			children = (
+				B5404C88247378CC00BD22DC /* Cells */,
+				B5404C7B247372ED00BD22DC /* Models */,
 				B5404C67247372C200BD22DC /* AppDelegate.swift */,
 				B5404C69247372C200BD22DC /* SceneDelegate.swift */,
 				B5404C6B247372C200BD22DC /* ViewController.swift */,
@@ -65,6 +79,26 @@
 				B5404C75247372C800BD22DC /* Info.plist */,
 			);
 			path = MoveTechnicalActivity;
+			sourceTree = "<group>";
+		};
+		B5404C7B247372ED00BD22DC /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				B5404C7C2473730300BD22DC /* Book.swift */,
+				B5404C7E2473730C00BD22DC /* Car.swift */,
+				B5404C802473731A00BD22DC /* Phone.swift */,
+				B5404C842473765500BD22DC /* Thing.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		B5404C88247378CC00BD22DC /* Cells */ = {
+			isa = PBXGroup;
+			children = (
+				B5404C89247379AD00BD22DC /* ThingCell.swift */,
+				B5404C8A247379AD00BD22DC /* ThingCell.xib */,
+			);
+			path = Cells;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -125,6 +159,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5404C8C247379AD00BD22DC /* ThingCell.xib in Resources */,
 				B5404C74247372C800BD22DC /* LaunchScreen.storyboard in Resources */,
 				B5404C71247372C800BD22DC /* Assets.xcassets in Resources */,
 				B5404C6F247372C200BD22DC /* Main.storyboard in Resources */,
@@ -138,9 +173,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				B5404C8B247379AD00BD22DC /* ThingCell.swift in Sources */,
+				B5404C7D2473730300BD22DC /* Book.swift in Sources */,
 				B5404C6C247372C200BD22DC /* ViewController.swift in Sources */,
+				B5404C7F2473730C00BD22DC /* Car.swift in Sources */,
 				B5404C68247372C200BD22DC /* AppDelegate.swift in Sources */,
+				B5404C812473731A00BD22DC /* Phone.swift in Sources */,
 				B5404C6A247372C200BD22DC /* SceneDelegate.swift in Sources */,
+				B5404C852473765500BD22DC /* Thing.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -294,7 +334,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.santana.MoveTechnicalActivity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
@@ -312,7 +352,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.santana.MoveTechnicalActivity;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 5.0;
-				TARGETED_DEVICE_FAMILY = "1,2";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
